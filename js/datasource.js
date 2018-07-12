@@ -23,8 +23,8 @@
 
 	function readParameter() {
 		var id = urlParams.getAll('id');
-		alert(id);
-		readUserData("-LDmLYqXfHivhgHffz7J");
+		
+		readUserData(id);
 	}
 
 	function readUserData(id) {
