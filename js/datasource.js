@@ -49,8 +49,8 @@
 		}, interval);
 	}
 	function readParameter() {
-		var id = urlParams.getAll('id');
-		var idEvaluation = urlParams.getAll('idElement');
+		var id = urlParams.get('id');
+		var idEvaluation = urlParams.get('idElement');
 		readUserData(id, idEvaluation);
 	}
 
