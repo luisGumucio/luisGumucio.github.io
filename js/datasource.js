@@ -41,7 +41,7 @@
 		var cont = 0;
 		var inter = setInterval(() => {
 
-			$('.jke-ecgChart').ecgChart('addDataPoint', { x: Date.now(), y: data[cont] });
+			$('.jke-ecgChart').ecgChart('addDataPoint', { x: Date.now(), y: (data[cont] * 100) });
 			cont++;
 			if (cont == data.length) {
 				clearInterval(inter);
