@@ -46,7 +46,7 @@
 			if (cont == data.length) {
 				clearInterval(inter);
 			}
-		}, interval);
+		}, 1000);
 	}
 	function readParameter() {
 		var id = urlParams.get('id');
